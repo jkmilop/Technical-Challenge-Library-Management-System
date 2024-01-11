@@ -21,20 +21,20 @@ To get the project up and running on your local machine, follow these steps:
 1. Clone the project from GitHub:
 
 ```bash
-git clone https://github.com/jkmilop/Technical-Challenge-Library-Management-System.git
+git clone https://github.com/jkmilop/Technical-Challenge-Technical-Challenge-Library-Management-System.git
 ```
 #### Back-End
 1. Navigate to the project directory and install the dependencies:
 
 ```bash
-cd library-management-system/back
+cd Technical-Challenge-Library-Management-System/back
 npm install bcrypt@5.1.1 cors@2.8.5 express@4.18.2 jsonwebtoken@9.0.2 mysql2@3.7.0 sequelize@6.35.2
 npm install --save-dev nodemon
 
 
 ```
 
-2. Create a MySQL database and add the database name, username, and password in `library-management-system/back/src/database/database.js` file.
+2. Create a MySQL database and add the database name, username, and password in `Technical-Challenge-Library-Management-System/back/src/database/database.js` file.
 
 3. Once the database is configured, create tables:
 
