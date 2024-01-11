@@ -23,21 +23,23 @@ To get the project up and running on your local machine, follow these steps:
 ```bash
 git clone https://github.com/jkmilop/library-management-system.git
 ```
-
-2. Navigate to the project directory and install the dependencies:
+#### Back-End
+1. Navigate to the project directory and install the dependencies:
 
 ```bash
-cd library-management-system
-npm install
+cd library-management-system/back
+npm install bcrypt@5.1.1 cors@2.8.5 express@4.18.2 jsonwebtoken@9.0.2 mysql2@3.7.0 sequelize@6.35.2
+npm install --save-dev nodemon
+
+
 ```
 
-3. Create a MySQL database and add the database name, username, and password in `.env` file.
+2. Create a MySQL database and add the database name, username, and password in `library-management-system/back/src/database/database.js` file.
 
-4. Once the database is configured, create tables and seed data:
+3. Once the database is configured, create tables:
 
 ```bash
-npm run migrate
-npm run seed
+npm run d
 ```
 
 ## Features
