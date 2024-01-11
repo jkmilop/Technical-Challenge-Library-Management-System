@@ -21,7 +21,7 @@ To get the project up and running on your local machine, follow these steps:
 1. Clone the project from GitHub:
 
 ```bash
-git clone https://github.com/jkmilop/library-management-system.git
+git clone https://github.com/jkmilop/Technical-Challenge-Library-Management-System.git
 ```
 #### Back-End
 1. Navigate to the project directory and install the dependencies:
